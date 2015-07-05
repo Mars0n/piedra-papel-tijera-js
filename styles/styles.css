@@ -1,0 +1,66 @@
+body{
+	margin: 0 auto;
+}
+h3{
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.user-container{
+	margin: 0 auto;
+	text-align: center;
+}
+.console-container{
+	margin: 0 auto;
+	text-align: center;
+}
+.console-select,.user-select{
+	height: 80px;
+	width: 120px;
+	margin: 20;
+	display: inline-block;
+	border-radius: 100%;
+	line-height: 80px;
+	cursor: pointer;
+}
+.user-select{
+	background-color: blue;
+}
+.console-select{
+	background-color: crimson;
+}
+.choice-option{
+	color: white;
+	font-size: 1.5em;
+}
+.msg-box{
+	height:300px;
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	background-color:#D4D4D4;
+	border-radius: 30%;
+}
+.btn-play{
+	height: 120px;
+	width: 120px;
+	border-radius: 100%;
+	line-height: 120px;
+	background-color: #52CF52;
+	margin: 0 auto;  
+	position: relative;
+	top:30px;
+	cursor: pointer;
+}
+.btn-play-text{
+	color: white;
+	font-size: 2em;
+	font-family: Verdana;
+}
+.result-box{
+	height: 80px;
+	width: 300px;
+	margin: 0 auto;
+	line-height: 80px;
+	position: relative;
+	top:30px;
+}

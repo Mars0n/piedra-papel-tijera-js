@@ -1,0 +1,36 @@
+<!DOCTIPE html>
+<html>
+<head>
+	<title>PIEDRA PAPEL O TIJERA!</title>
+	<!-- Encoding -->
+	<meta charset="UTF-8">
+	<!-- Link scripts -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+	<script type="text/javascript" src="scripts/jquery.js"> </script>
+
+</head>
+<body>
+	<!-- Usuario Elige -->
+	<div class="user-container">
+		<h3> Tu eliges</h3>
+		<div class="user-select"><span class="choice-option">PIEDRA</span></div>
+		<div class="user-select"><span class="choice-option">PAPEL</span></div>
+		<div class="user-select"><span class="choice-option">TIJERA</span></div>
+	</div>
+
+	<!-- Cuadro Resultado -->
+	<div class="msg-box">
+		<div class="btn-play"><span class="btn-play-text">Jugar</span></div>
+		<div class="result-box"></div>
+	</div>
+
+	<!-- Computadora Elige -->
+	<div class="console-container">
+		<h3> La computadora elige</h3>
+		<div class="console-select" id="piedra"><span class="choice-option">PIEDRA</span></div>
+		<div class="console-select" id="papel"><span class="choice-option">PAPEL</span></div>
+		<div class="console-select" id="tijera"><span class="choice-option">TIJERA</span></div>
+	</div>
+</body>
+</html>
